@@ -15,9 +15,9 @@ const MarketingPage = () => {
         // onClick={handleClick}
       >
         {/* Main Content Container */}
-        <div className="text-center text-white max-w-5xl mx-auto flex-1 flex flex-col justify-center">
+        <div className="text-center min-h-full text-white max-w-5xl mx-auto flex-1 flex flex-col justify-center">
           {/* Main Title */}
-          <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light leading-tight">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-light leading-tight">
             Evolving the drive with{' '}
             <span className="font-medium">360-degree</span>
             <br />
