@@ -12,6 +12,7 @@ const sections = [
           icon: "🚗",
           title: "Passenger vehicles",
           description: "Revving up Nonwoven innovation from interior to exterior.",
+          videoUrl: ''
      },
      {
           id: 1,
@@ -153,12 +154,7 @@ export default function AnimatedHero() {
                                              }}
                                              className="text-white text-center p-8 border border-gray-600 rounded-lg bg-gray-900/20"
                                         >
-                                             <p className="text-lg mb-4">
-                                                  {sections[activeSection].label} - 3D Visualization
-                                             </p>
-                                             <p className="text-sm text-gray-400">
-                                                  This video shows the 3D car visualization
-                                             </p>
+                                             <video src="/videos/your-video.mp4" controls autoPlay muted loop />
                                         </motion.div>
                                    </div>
                               </motion.div>
